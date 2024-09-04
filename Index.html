@@ -1,66 +1,87 @@
-!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca do fabuloso mundo de Verônica</title>
 </head>
 <body>
     <main>
-    <title> Em busca do fabuloso mundo de Verônica </title>
-</head>
-<body>
-    
+        <div class="passo ativo" id="passo-0">
+            <img src="img/paisagem.webp" alt="Paisagem inicial da aventura">
+            <p>  Era uma vez, em um lugar não muito longe daqui. Lá morava uma linda menina que acabara de perder a mãe e o pai, um comerciante que vive fora de casa, casou para que sua filha  não  sentir sozinha, então casou-se pela segunda vez, e Verônica ganhou uma madrasta que tinha duas filhas, que não eram muito charmosas nem delicadas. Sua mãe biológica, temendo que sua filha após sua morte se sentisse solitária, escreveu em uma carta com diversas pistas para que Verô pudesse encontrar seu o maior tesouro.</p>
+            <button class="btn-proximo" data-proximo="1">Bosque das flores </button>
+            <button class="btn-proximo" data-proximo="2">Ponte dos desesperados</button>
+        </div>
 
-    <main>
+        <div class="passo" id="passo-1">
+            <p> No Bosque das flores, lugar qual sua mãe gostava de colher ervas e flores para os piqueniques em família. Verô, pensou nesse lugar ao ver que haviam ramos de flores na carta. Assim, ela decide partir ao amanhecer para aproveitar o dia e procurar por outras possíveis pistas.   .</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pistas no canteiros que haviam flores</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
 
-<div class="passo" id="paaso-0">
-    <img src="cenario-passo0.1.png" alt="">
+        <div class="passo" id="passo-2">
+            <p>Na ponte dos desesperados, lugar em que haviam criaturas mágicas, possíveis fadas, que escutava os desesperados. Na carta, haviam pistas, na qual indicava localização da entrada de uma cidade escondida. Você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a Ponte do Rio</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a Praça de Solindiin </button>
+        </div>
 
-<p>
+        <div class="passo" id="passo-3">
+            <p>Ela decide investigar os misterios que rondam a velha igreja. È acaba não encontrando nada além de um desenho abistrato</p>
+            <button class="btn-proximo" data-proximo.
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
 
-    Uma vez, em um lugar não muito longe daqui. Lá morava uma linda menina que acabara de perder a mãe e o pai, um comerciante que vive fora de casa, casou para que sua filha  não  sentir sozinha, então casou-se pela segunda vez, e Verônica ganhou uma madrasta que tinha duas filhas, que não eram muito charmosas nem delicadas. Sua mãe biológica, temendo que sua filha após sua morte se sentisse solitária, escreveu em uma carta com diversas pistas para que Verô pudesse encontrar seu o maior tesouro. </p>
-    <button class="btn-proximo" data-proximo="1"> Bosque das flores </button>
-    <button class="btn-proximo" data-proximo="2"> Ponte dos desesperados </button>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.webp" alt="Imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+        </div>
 
-</div>
+        <div class="passo" id="passo-5">
+            <p>Na Ponte, você descobre um mapa antigo escondido atrás de um altar, ele possuia a mesma imagem das flores que haviam na carta. Essa pista apontava para um barzinho que não era longe dali.</p>
+            <button class="btn-proximo" data-proximo="7">Ir ao barzinho</button>
+        </div>
 
-<div class="passo" id="paaso-1">
+        <div class="passo" id="passo-6">
+            <p>Explorando a Praça de Solindiin, ela encontra uma caverna escondida, mas acaba levando ao beco que não possui saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+        </div>
 
- <p>
- Ela decide procurar pistas dentro do Bosque das flores, onde sua mãe gostava de colher ervas e flores para os piqueniques em família. Verô, pensou nesse lugar ao ver que haviam ramos de flores na carta. Assim, ela decide partir ao amanhecer para aproveitar o dia e procurar por outras possíveis pistas.   
-   <button class="btn-proximo" data-proximo="3"> Ir procurar pistas dentro do Bosque das flores. </button>
-  
+        <div class="passo" id="passo-7">
+            <p>No Barzinho, que possuia como tema o amor. Verô aasustada com tudo o que acontecia se depara com duas portas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela porta à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela porta à direita</button>
+        </div>
 
-   <button class="btn-proximo" data-proximo="4"> Desistir e voltar para casa
-   <img src="cenario-passo1-bosque ao amanhecer.jpg" alt="">
-</button>
-</p>
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo, que estava quase me decomposição. Agora, para o Barzinho!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Barzinho</button>
+        </div>
 
-</div>
+        <div class="passo" id="passo-9">
+            <p> A porta à esquerda leva você a um quarto escuro, como um portal, no qual se encontrar o interrupitor é possivel encontrar as mensaguens escondidas nas paredes com as inscrições que revelam a entrada de uma cidade que havia sido perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
 
-<div class="passo" id="passo-2">
-    <p>Ela decide ir a ponte dos desesperados, lugar em que haviam criaturas mágicas, possíveis fadas, que escutava os desesperados. Na carta, haviam pistas, na qual indicava localização da entrada de uma cidade escondida. Você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-    <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-    <button class="btn-proximo" data-proximo="6">Explorar as museus próximos</button>
-</div>
+        <div class="passo" id="passo-10">
+            <p>A porta à direita termina em um quarto branco com várias pinturas. Apesar de ser belas vistas, não há sinais da cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar a porta da esquerda. </button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Retornando e escolhendo o porta à esquerda, você finalmente encontra a cachoeira escondida e as inscrições que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
 
-<div class="passo" id="passo-3">
-    <p> Ela decide investigar os misterios que rondam a velha igreja. È acaba não encontrando nada além de um desenho abistrato</p>
-    <button class="btn-proximo" data-proximo="7">Acaba indo para casa sem opição de continuar</button>
-    
-</div>
-
-<div class="passo" id="passo-4">
-    <img src="cenario-passo4-voltar para casa.jpg" alt="">
-    <p>Ela decide voltar a casa</p>
-    <button class="btn-proximo" data-proximo="8"> Como só havia uma imagem sem sentido, então você descide voltar</button>
-  
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo11.png" alt="Encontrando uma cidade maravilhosa perdida que a penas a mãede Verô sabia">
+            <p> Ao seguir as pistas encontrou um jardim imenso e no centor tem uma passagem para encontrar a entrada para a cidade perdida, você descobre tesouros inimagináveis.</p>
+        </div>
 
     </main>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+                </html>
